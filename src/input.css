@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.main_img{
+    background-image: url(img.jpg);
+    background-size: cover;
+    height: 75vh;
+    background-position: center;
+    background-position-y: 39px
+
+}
+
+.text{
+    font-family:cursive ;
+    color: rgba(240, 248, 255, 0.971);
+    
+}
+
+.seller:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color:#5888ef;
+}
+
+.kente{
+    background-image:url(kente.jpg);
+    background-size: cover;
+    height: 70vh;
+    margin: 20px;
+    border-radius: 10px;
+}
+.womens_smock{
+    background-image:url(womens_smock.jpg);
+    background-size: cover;
+    height: 70vh;
+    margin: 20px;
+    border-radius: 10px;
+}
